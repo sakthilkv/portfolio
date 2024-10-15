@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+  margin: 2em;
+  color: #111;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.5em;
+}
+h2 {
+  margin-top: 1.2em;
+}
+#main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid #aaa;
+}
+th,
+td {
+  padding: 0.3em;
+}
+tt {
+  font-family: "source code pro", monospace;
+  font-size: 0.8em;
+  background-color: #f8f8f8;
+  padding: 0.2em;
+  border: 1px solid #f0f0f0;
+}
+a {
+  color: #004fa0;
+  text-decoration: none;
+}
+a:hover {
+  color: #206fc0;
+  text-decoration: none;
+  background-color: #fafafa;
+}
+
+pre {
+  font-family: "source code pro", monospace;
+  font-size: 0.8em;
+  background-color: #f8f8f8;
+  line-height: 1.3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  padding: 0.5em;
+  border: 1px solid #f0f0f0;
+}
+li {
+  margin-bottom: 0.25em;
+}
+
+@media (min-width: 800px) {
+  #portrait {
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 205px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 799px) {
+  #portrait {
+    margin: auto;
+    text-align: center;
+  }
+}
